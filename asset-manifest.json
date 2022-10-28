@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nobel_prizes/static/css/main.59c2571a.css",
+    "main.js": "/nobel_prizes/static/js/main.80dbf2ad.js",
+    "index.html": "/nobel_prizes/index.html",
+    "main.59c2571a.css.map": "/nobel_prizes/static/css/main.59c2571a.css.map",
+    "main.80dbf2ad.js.map": "/nobel_prizes/static/js/main.80dbf2ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59c2571a.css",
+    "static/js/main.80dbf2ad.js"
+  ]
+}
