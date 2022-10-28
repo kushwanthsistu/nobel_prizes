@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#headerimage {
+    width: 50px;
+    height: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#headeritem {
+    height: 70px;
+}
+
+#innerblock {
+    display: flex ;
+    flex-direction: row;
+}
+
+#outerblock {
+    position: relative ;
+}
+
+/* #multipleawardees {
+    height: 300px;
+    overflow: scroll;
+} */
+
+#sideadjustment {
+    height: 100%;
+    overflow: scroll;
+}
+
+#sideblock {
+    position: sticky ;
+    top : 0px ;
+    padding: 5px;
+    margin: 5px;
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    /* background-color: red; */
+}
+
+
+.yearinputs {
+    width: 75px;
+}
+
+#innerblock {
+    position : absolute ;
+    top : 70px ;
+    bottom: 0px;
+    overflow: scroll;
+    width: 100%;
+}
+
+#darkmode {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#sideblockreduced {
+    position: fixed;
+    top : 70px ;
+    bottom : 0px ;
+}
+
+@media screen and (max-width: 500px) {
+    #sideblock {
+        display: none;
+    }
+    #panelbutton {
+        display: block;
+    }
+    #sideblockreduced {
+        display: block;
+    }
+}
+
+@media screen and (min-width : 500px) {
+    #panelbutton {
+        display: none;
+    }
+    #sideblock {
+        display: block;
+    }
+    #sideblockreduced {
+        display: none;
+    }
 }
